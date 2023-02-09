@@ -37,7 +37,7 @@ export const Deatils = () => {
         <>
             <Box maxW={'1400px'} m={'20px auto 5px'} p={'20px'} minH={'550px'}>
                 <Grid gridTemplateColumns={['100%', 'repeat(2, 1fr)', 'repeat(2, 1fr)', '30% 27.5% 38%']} gap={'30px'}>
-                    <Newbox>
+                    <Newbox >
                         <Box color={'red'} p={'20px'} textAlign={'center'}>
                             <Flex justify={'end'}>
                                 <Icon
@@ -53,9 +53,9 @@ export const Deatils = () => {
                         </Box>
                     </Newbox>
 
-                    <Newbox >
+                    <Newbox  marginLeft={"100px"}>
                         <Grid templateColumns={'60% 40%'} h={'100%'} p={'8px'}>
-                            <Box py={'10px'} pl={'15%'}>
+                            <Box py={'10px'} pl={'15%'} >
                                 {['Felt Temp.','Humidity','Wind','Visibility','Max Temp.','Min Temp.'].map((e, i) => (
                                     <Text key={i} color={'red'} fontWeight={500} mt={'15px'} fontSize={'18px'} >{e}</Text>
                                 ))}

@@ -34,16 +34,16 @@ export const Navbar = () => {
                     onClick={handleChnage}
                     borderRadius={'0px 15px 15px 0px'}
                     color={'white'}
-                    bg={'#5e82f4'}
-                    _hover={{ 'bg': '5e82f4' }}
+                    bg={'grey'}
+                    _hover={{ 'bg': 'grey' }}
                 >
                     Search
                 </Button>
             </Center>
             <Center px={'10px'}>
                 <Button
-                    bg={'#5e82f4'}
-                    _hover={{ 'bg': '5e82f4' }}
+                    bg={'grey'}
+                    _hover={{ 'bg': 'grey' }}
                     color={'white'}
                     w={'100%'}
                     borderRadius={'15px'}
