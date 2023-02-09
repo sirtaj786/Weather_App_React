@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { Deatils } from './Component/Details';
+import { Navbar } from './Component/Navbar';
+
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Weather App</h1>
-    </div>
-  );
+
+    return (
+        <div>
+            <Navbar />
+            <Deatils />
+        </div>
+    )
 }
 
 export default App;
