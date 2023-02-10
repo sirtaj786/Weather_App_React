@@ -32,7 +32,7 @@ export const ForcastModal = ({ data }) => {
 
                     <ModalBody>
                         <Box p={'10px'}>
-                            <Box p={'5px'} bg={'red'} textAlign={'center'} borderRadius={'30px'} mb={'20px'} >
+                            <Box p={'5.5px'} bg={'red'} textAlign={'center'} borderRadius={'30px'} mb={'20px'} >
                                 <Text fontWeight={500} color={'white'} fontSize={'18px'}>{date}</Text>
                                 <Text fontWeight={500} color={'white'} fontSize={'18px'}>{day}</Text>
                             </Box>
